@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#EFEDE7"/>
+  <circle cx="400" cy="318" r="150" fill="#FFFFFF"/>
+  <circle cx="400" cy="318" r="150" fill="none" stroke="#E2DDD1" stroke-width="2"/>
+  <path d="M400 590a170 170 0 0 0-130 58l-40-32a230 230 0 0 1 340 0l-40 32a170 170 0 0 0-130-58z" fill="#FFFFFF"/>
+  <path d="M400 590a170 170 0 0 0-130 58l-40-32a230 230 0 0 1 340 0l-40 32a170 170 0 0 0-130-58z" fill="none" stroke="#E2DDD1" stroke-width="2"/>
+  <circle cx="430" cy="560" r="90" fill="#F5E6CC"/>
+  <path d="M430 560h160a90 90 0 0 1-90 90 90 90 0 0 1-70-90z" fill="#C6841E" opacity="0.85"/>
+  <text x="400" y="355" text-anchor="middle" font-family="'IBM Plex Mono', monospace" font-size="26" fill="#6B6A63">Photo coming soon</text>
+</svg>

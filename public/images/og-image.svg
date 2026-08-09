@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#F7F5F1"/>
+  <text x="80" y="270" font-family="'Space Grotesk', Arial, sans-serif" font-size="56" font-weight="700" fill="#17191C">Build and launch real</text>
+  <text x="80" y="345" font-family="'Space Grotesk', Arial, sans-serif" font-size="56" font-weight="700" fill="#17191C">websites with AI agents.</text>
+  <text x="80" y="410" font-family="'Inter', Arial, sans-serif" font-size="24" fill="#6B6A63">A free live training for marketers and funnel builders — no developer needed.</text>
+  <rect x="80" y="470" width="220" height="60" rx="12" fill="#C6841E"/>
+  <text x="190" y="508" font-family="'Inter', Arial, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF" text-anchor="middle">Join free training</text>
+</svg>
