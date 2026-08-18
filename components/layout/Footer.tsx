@@ -8,7 +8,7 @@ export function Footer() {
         <img
           src={buildLabLogo.src}
           alt="BuildLab AI"
-          className="h-[30px] w-auto md:h-[34px]"
+          className="h-6 w-auto md:h-[30px]"
         />
         <p className="text-sm text-muted-foreground">{footerTagline}</p>
       </div>

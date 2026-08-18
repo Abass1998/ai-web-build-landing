@@ -9,11 +9,13 @@ export function Header() {
         <img
           src={buildLabLogo.src}
           alt="BuildLab AI"
-          className="h-[30px] w-auto md:h-[34px]"
+          className="hidden h-[30px] w-auto md:block"
         />
-        <CTAButton location="header" size="default">
-          {header.cta}
-        </CTAButton>
+        <div className="hidden md:block">
+          <CTAButton location="header" size="default">
+            {header.cta}
+          </CTAButton>
+        </div>
       </div>
     </header>
   );
