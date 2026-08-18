@@ -1,4 +1,4 @@
-import buildLabLogo from "@/Images/BuildLab_logo.svg";
+import buildLabLogo from "@/Images/BuildLab_logo_clean.png";
 import { header } from "@/content/copy";
 import { CTAButton } from "@/components/ui/CTAButton";
 
@@ -9,7 +9,7 @@ export function Header() {
         <img
           src={buildLabLogo.src}
           alt="BuildLab AI"
-          className="h-8 w-auto md:h-9"
+          className="h-9 w-auto md:h-10"
         />
         <CTAButton location="header" size="default">
           {header.cta}
