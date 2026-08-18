@@ -1,4 +1,4 @@
-import buildLabLogo from "@/Images/BuildLab_logo_clean.png";
+import buildLabLogo from "@/Images/logo-2_clean.png";
 import { header } from "@/content/copy";
 import { CTAButton } from "@/components/ui/CTAButton";
 
