@@ -1,4 +1,4 @@
-import { displayBrandName } from "@/content/config";
+import buildLabLogo from "@/Images/BuildLab_logo.svg";
 import { header } from "@/content/copy";
 import { CTAButton } from "@/components/ui/CTAButton";
 
@@ -6,7 +6,11 @@ export function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-border bg-background">
       <div className="container-page flex h-16 items-center justify-between">
-        <span className="font-display text-lg font-bold tracking-tight">{displayBrandName()}</span>
+        <img
+          src={buildLabLogo.src}
+          alt="BuildLab AI"
+          className="h-8 w-auto md:h-9"
+        />
         <CTAButton location="header" size="default">
           {header.cta}
         </CTAButton>
