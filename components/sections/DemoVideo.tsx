@@ -63,6 +63,7 @@ export function DemoVideo() {
                 className="h-full w-full object-cover"
                 preload="none"
                 poster={siteConfig.demoPoster}
+                src={siteConfig.demoVideo}
                 controls={started}
                 aria-label='Demo video of an AI agent building a landing page'
                 onError={() => setFailed(true)}

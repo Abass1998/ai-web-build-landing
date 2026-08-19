@@ -43,8 +43,7 @@ export const seeItWork = {
   eyebrow: "SEE IT WORK",
   h2: "See how a real website goes from idea to live.",
   body: "During the session you'll watch the whole workflow run — a plain-language specification becoming a real, working page. This is the exact process you'll learn to direct yourself.",
-  previewHint:
-    "The recording below is a visual preview of the build sequence you'll watch live — specification, agent work, review, and a live page.",
+  previewHint: "A real spec, a real build, a real result.",
 };
 
 export const howItWorks = {
