@@ -106,3 +106,12 @@ details > summary {
 details > summary::-webkit-details-marker {
   display: none;
 }
+
+/* Poster scrim over demo video — uses the foreground token, fades from transparent at top to a dark tone at the bottom */
+.poster-scrim {
+  background-image: linear-gradient(
+    to top,
+    color-mix(in srgb, var(--foreground) 45%, transparent),
+    transparent 100%
+  );
+}

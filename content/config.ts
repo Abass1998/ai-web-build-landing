@@ -8,7 +8,7 @@ export const siteConfig = {
   canonicalUrl: "[CANONICAL_URL]",
   instructorName: "Abass Odunola",
   demoVideo: "/videos/ai-agent-build.mp4",
-  demoPoster: "/images/demo-poster.svg",
+  demoPoster: "/images/demo-poster.jpg",
   demoReady: true, // set to true only once real demo assets exist and paths above are filled
   demoLength: "[DEMO_LENGTH_PLACEHOLDER]",
   demoCaption: "Full build, recorded in real time — [MM:SS]",

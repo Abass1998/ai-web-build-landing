@@ -69,23 +69,29 @@ export function DemoVideo() {
                 onError={() => setFailed(true)}
               />
               {!started && (
-                <button
-                  type="button"
-                  onClick={handlePlay}
-                  aria-label="Play demo video"
-                  className="absolute inset-0 flex items-center justify-center focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
-                >
-                  <span className="flex h-20 w-20 items-center justify-center rounded-full bg-accent shadow-elevated">
-                    <svg
-                      className="ml-1 h-8 w-8 text-accent-foreground"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path d="M8 5v14l11-7z" />
-                    </svg>
-                  </span>
-                </button>
+                <>
+                  <div
+                    aria-hidden="true"
+                    className="poster-scrim pointer-events-none absolute inset-x-0 bottom-0 h-1/3"
+                  />
+                  <button
+                    type="button"
+                    onClick={handlePlay}
+                    aria-label="Play demo video"
+                    className="absolute inset-0 flex items-center justify-center focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                  >
+                    <span className="flex h-20 w-20 items-center justify-center rounded-full bg-accent shadow-elevated transition-transform duration-200 ease-out hover:scale-105 active:scale-95 motion-reduce:transform-none">
+                      <svg
+                        className="ml-1 h-8 w-8 text-accent-foreground"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        aria-hidden="true"
+                      >
+                        <path d="M8 5v14l11-7z" />
+                      </svg>
+                    </span>
+                  </button>
+                </>
               )}
             </div>
           )}
